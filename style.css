@@ -18,6 +18,9 @@ body {
 #header {
   padding: 30px 0;
   background: white;
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
 .header {
   display: flex;
@@ -466,3 +469,344 @@ body {
   }
 }
 /* LINK */
+
+/* CRAFT */
+#craft {
+  margin: 100px 0;
+}
+.craft {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  h1 {
+    font-size: 61px;
+    font-weight: 400;
+    line-height: 83.2px;
+    letter-spacing: 2.559999942779541px;
+  }
+  p {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 37.8px;
+    letter-spacing: 0.41999998688697815px;
+    color: rgba(255, 255, 255, 0.612);
+  }
+}
+.line-craft {
+  width: 140px;
+  height: 5px;
+  background: rgba(255, 67, 67, 1);
+}
+.craft-card {
+  width: 250px;
+  height: 450px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+    transition: 0.7s;
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
+}
+.craft-shadow {
+  width: 100%;
+  bottom: 0;
+  height: 50%;
+  background: linear-gradient(rgba(255, 255, 255, 0), black);
+  position: absolute;
+  border-radius: 0 0 12px 12px;
+}
+.craft-card-text {
+  position: absolute;
+  bottom: 60px;
+  left: 35px;
+  color: white;
+  h2 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34.8px;
+    letter-spacing: 0.41999998688697815px;
+    margin-bottom: 10px;
+  }
+  h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.41999998688697815px;
+    span {
+      font-size: 15px;
+      font-weight: 400;
+      letter-spacing: 0.41999998688697815px;
+      color: rgba(255, 255, 255, 0.493);
+    }
+  }
+}
+.craft-blocks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* CRAFT */
+
+/* OFFER */
+
+#offer {
+  margin: 100px 0 0 0;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 35px;
+}
+
+.offer-text {
+  h5 {
+    color: rgba(139, 255, 176, 1);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.41999998688697815px;
+  }
+  h1 {
+    color: white;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 83.2px;
+    letter-spacing: 1.9199999570846558px;
+    padding: 25px 0;
+  }
+  p {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 39.2px;
+    letter-spacing: 0.41999998688697815px;
+    color: rgba(255, 255, 255, 0.374);
+  }
+}
+.offer-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 47px;
+  width: 95%;
+  height: 430px;
+  background: rgba(29, 27, 36, 1);
+  border-radius: 15px;
+  h1 {
+    font-size: 63px;
+    font-weight: 400;
+    letter-spacing: 2.0999999046325684px;
+    color: white;
+  }
+  p {
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: 0.41999998688697815px;
+    color: rgba(255, 255, 255, 0.475);
+  }
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 15px;
+    color: white;
+    padding: 14px 40px;
+    background: rgba(255, 67, 67, 1);
+    border: none;
+    border-radius: 10px;
+    ion-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 37px;
+    }
+  }
+}
+
+/* OFFER */
+
+/* LESSON */
+#lesson {
+  background: url("./img/lesson.png") no-repeat center/cover;
+  min-height: 50vh;
+}
+.lesson-shadow {
+  background: linear-gradient(180deg, #1d1b24 0%, rgba(0, 0, 0, 0) 100%);
+  width: 100%;
+  height: 50vh;
+}
+.lesson {
+  transform: translateY(-280px);
+  text-align: center;
+  h1 {
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 48.84px;
+    letter-spacing: 0.41999998688697815px;
+    color: white;
+  }
+  h4 {
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 0.41999998688697815px;
+    color: rgba(255, 255, 255, 0.541);
+  }
+}
+/* LESSON */
+
+/* NOVA */
+#nova {
+  margin: 150px 0;
+}
+.nova {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.nova-block {
+  display: flex;
+  align-items: center;
+}
+.nova-img {
+  position: relative;
+}
+.nova-img-text {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+
+  h1 {
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+  }
+  h3 {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    ion-icon {
+      color: white;
+      font-size: 22px;
+    }
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+.nova-card {
+  transform: translateY(7px);
+  width: 370px;
+  height: 430px;
+  background: rgba(173, 237, 173, 0.96);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  color: white;
+  h4 {
+    margin-left: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.23999999463558197px;
+    color: rgba(132, 163, 132, 0.393);
+  }
+  h1 {
+    padding-left: 30px;
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.41999998688697815px;
+  }
+  p {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 70px;
+  }
+  h2 {
+    display: flex;
+    gap: 20px;
+    padding-left: 150px;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.6000000238418579px;
+    ion-icon {
+      transform: translateY(20px);
+      font-size: 30px;
+    }
+  }
+}
+/* NOVA */
+
+/* FOOTER */
+
+#footer {
+  padding: 100px o;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-center {
+  display: flex;
+  gap: 150px;
+  h5 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.18000000715255737px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1599999964237213px;
+    color: rgba(255, 255, 255, 1);
+  }
+}
+
+.center-product {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-end {
+  display: flex;
+  /* align-items: center; */
+  justify-content: start;
+  gap: 15px;
+
+  a {
+    color: white;
+    font-size: 30px;
+  }
+}
+
+/* FOOTER */
